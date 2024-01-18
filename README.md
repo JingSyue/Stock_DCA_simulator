@@ -13,11 +13,11 @@ The DCA Simulator is a web-based stock investment simulator designed to demonstr
 The easiest way to run the DCA Simulator is using Docker. Follow these steps:
 1. Clone the repository:
 ``` bash
-    git clone https://github.com/yourusername/dca-simulator.git
+    git clone https://github.com/JingSyue/Stock_DCA_simulator.git
 ```
 2. Navigate to the project directory:
 ``` bash
-    cd dca-simulator
+    cd Stock_DCA_simulator
 ```
 3. Build the Docker image:
 ``` bash
@@ -34,11 +34,11 @@ To set up the DCA Simulator without Docker, follow these steps:
 
 1. Clone the repository:
 ``` bash
-    git clone https://github.com/yourusername/dca-simulator.git
+    git clone https://github.com/JingSyue/Stock_DCA_simulator.git
 ```
 2. Navigate to the project directory:
 ``` bash
-    cd dca-simulator
+    cd Stock_DCA_simulator
 ```
 3. Install the required dependencies (if applicable):
 ``` bash
