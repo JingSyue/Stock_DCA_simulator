@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px 20px 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+form input[type="submit"] {
+    cursor: pointer;
+    background: #45a049;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+form input[type="submit"]:hover {
+    background: #555;
+}
+#stock-inputs {
+    margin-bottom: 20px;
+}
+
+#stock-inputs input[type="text"] {
+    display: block; /* 每个输入框占据一整行 */
+    width: 95%; /* 输入框的宽度 */
+    margin: 5px auto; /* 上下间距 */
+    padding: 10px; /* 内边距 */
+    border-radius: 3px; /* 边框圆角 */
+    border: 1px solid #ddd; /* 边框样式 */
+}
+
+.add-stock-button {
+    background: #4CAF50; /* 按钮背景颜色 */
+    color: white; /* 按钮文字颜色 */
+    padding: 10px 15px; /* 按钮内边距 */
+    border: none; /* 无边框 */
+    border-radius: 3px; /* 边框圆角 */
+    cursor: pointer; /* 鼠标样式 */
+    margin-bottom: 20px; /* 下边距 */
+}
+
+.add-stock-button:hover {
+    background-color: #45a049; /* 鼠标悬停时的背景颜色 */
+}
