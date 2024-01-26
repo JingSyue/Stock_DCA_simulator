@@ -9,6 +9,9 @@ The DCA Simulator is a web-based stock investment simulator designed to demonstr
 - Visualization of investment growth over time.
 - Calculation of ROI for each stock.
 
+## Demo
+- https://youtu.be/XT7dJP-SdvE
+
 ### Installation Using Docker
 The easiest way to run the DCA Simulator is using Docker. Follow these steps:
 1. Clone the repository:
