@@ -11,6 +11,7 @@ The DCA Simulator is a web-based stock investment simulator designed to demonstr
 
 ## Demo
 - https://youtu.be/XT7dJP-SdvE
+- 34.80.70.215
 
 ### Installation Using Docker
 The easiest way to run the DCA Simulator is using Docker. Follow these steps:
@@ -29,7 +30,7 @@ The easiest way to run the DCA Simulator is using Docker. Follow these steps:
 
 4. Run the Docker container:
 ``` bash
-    docker run -p 5000:5000 dca-simulator
+    docker run -p 80:80 dca-simulator
 ```
 ## Installation without Docker
 
@@ -60,7 +61,7 @@ To run the DCA Simulator:
 2. Open your web browser and navigate to:
 
 ``` bash
-    http://localhost:5000
+    http://localhost:80
 ```
 3. Enter the stock symbols, monthly investment amount, start date, and end date.
 4. Click 'Simulate' to view the investment results.

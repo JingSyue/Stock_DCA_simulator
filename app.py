@@ -55,8 +55,7 @@ def simulate_investment(stock_data, start_date, end_date, monthly_investment, in
 
 @app.route('/simulate', methods=['POST'])
 def simulate():
-    # 从表单获取数据
-    symbols = request.form.getlist('symbol[]')  # 获取股票代码数组
+    symbols = request.form.getlist('symbol[]')  
     monthly_investment = float(request.form.get('monthly_investment'))
     investment_day = int(request.form.get('investment_day'))
     start_date = datetime.strptime(request.form.get('start_date'), '%Y-%m-%d')
@@ -64,7 +63,7 @@ def simulate():
 
     result_data = []
     for symbol in symbols:
-        symbol = symbol.strip()  # 清理空格
+        symbol = symbol.strip() 
         stock_data = fetch_data(symbol, start_date.strftime('%Y-%m-%d'), end_date.strftime('%Y-%m-%d'))
 
         if stock_data is not None:
@@ -87,4 +86,4 @@ def simulate():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=80)
